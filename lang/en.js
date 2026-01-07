@@ -72,21 +72,6 @@ const enPublicationsPageData = {
   type_two_title: "Working Papers",
   type_two_items: [
     {
-      title: `Greening through Tourism`,
-      journal: "Journal of Environmental Economics and Management",
-      status: "Reject & Resubmit",
-      abstract: `This paper examines the relationship between tourism development and environmental outcomes in various regions.`,
-      presentations: [
-        "CAERE Annual Meeting 2025",
-        "AAEA Annual Meeting 2025", 
-        "PKU CCER Annual Meeting 2025"
-      ],
-      date: "2025",
-      link: "",
-      replication: "https://github.com/yourusername/greening-tourism",
-      writers: ["Zhihao He", "Mingying Zhu", "Bo Chen", "Wei Du"],
-    },
-    {
       title: `Macroprudential Policies Under Fiscal Federalism? Evidence from China`,
       journal: "Under Review",
       status: "",
