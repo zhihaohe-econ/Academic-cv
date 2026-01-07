@@ -1,7 +1,7 @@
 const navbarLinks = {
   home: true,
   publications: true,
-  CV: true,
+  research: true,
   jobs: true,
   contact: true,
 };
