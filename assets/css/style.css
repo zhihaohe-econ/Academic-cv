@@ -18,6 +18,11 @@
   font-weight: 700;
 }
 
+/* Global font style - Times New Roman for all text */
+* {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
 /* Navbar styles */
 #language {
   cursor: pointer;
@@ -25,7 +30,6 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  font-family: "vazir";
   font-size: 13px;
 }
 
@@ -40,7 +44,7 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  font-family: "vazir";
+  font-family: "vazir" !important;
   font-size: 13px;
 }
 
@@ -181,6 +185,27 @@
   display: inline;
   font-size: 1.15rem;
   text-align: justify;
+}
+
+/* Journal name and status styles */
+.publication_journal {
+  color: #1e40af;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.publication_presentations {
+  color: #047857;
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.publication_presentations strong {
+  font-weight: 600;
+  color: #065f46;
 }
 
 .publication_container .publications_item {
@@ -504,7 +529,7 @@
 /* Home page styles */
 .rtl_wrapper > * {
   direction: rtl;
-  font-family: "vazir";
+  font-family: "vazir" !important;
   font-size: 0.9rem;
   line-height: 1.8;
 }
