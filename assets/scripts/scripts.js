@@ -136,9 +136,9 @@ $(document).ready(function () {
               : ""
           }
           ${
-            publication.github
+            publication.replication
               ? `<li>
-                  <a href=${publication.github} target="_blank">Replication</a>
+                  <a href=${publication.replication} target="_blank">Replication</a>
                 </li>`
               : ""
           }
