@@ -85,16 +85,6 @@ const enPublicationsPageData = {
       writers: ["Zhihao He", "Ka Yui Charles Leung", "Qilin Zhang*"],
     },
     {
-      title: `Foreign Exposure and Tenant Turnover: Evidence from Beijing's Grade-A Office Market`,
-      journal: "Under Review",
-      status: "",
-      abstract: `We study how geopolitical shocks affect the spatial organization of global cities by examining tenant reallocation in Beijing's commercial office market following the 2018-2019 US-China trade war. Exploiting variation in pre-shock foreign-firm exposure across Grade-A office buildings in five core submarkets, we find that buildings with greater foreign exposure exhibited significantly higher tenant turnover. This adjustment followed a distinct dynamic pattern: an initial decline in turnover, followed by a sharp increase driven primarily by tenant exits. Effects were concentrated in internationally oriented submarkets (CBD and East Second Ring). Institutional proximity moderates this adjustment: buildings closer to Beijing's embassy district exhibit attenuated responses, consistent with an embassy-district shelter effect. Beyond turnover, we document a re-indigenization of the tenant base in higher-exposure buildings, alongside a shift toward smaller-capital and less R&D intensive occupiers.`,
-      date: "2025",
-      link: "",
-      replication: "",
-      writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
-    },
-    {
       title: `Sons versus Daughters: Child Gender, Parental Labor Supply, and Well-Being in China`,
       journal: "Journal of Happiness Studies",
       status: "Reject and Resubmit",
