@@ -2,7 +2,7 @@
 const enNavbarData = {
   title: " Zhihao He ",
   Home: "Home",
-  publications: "publications",
+  publications: "Publications",
   Research: "Research",
   Jobs: "Jobs",
   Contact: "Contact",
