@@ -65,23 +65,23 @@ const enPublicationsPageData = {
     },
   ],
 
-  type_two_title: "Under Review",
+  type_two_title: "Working Papers",
   type_two_items: [
     {
-      title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
-      abstract: ``,
-      date: "1996",
+      title: `Macroprudential Policies Under Fiscal Federalism?  Evidence from China`,
+      abstract: `This paper explores macroprudential policy implementation within a hierarchical government structure, focusing on the fiscal effects on local governments when the Chinese government restricts financing for real estate developers to address property market risks. Our difference-in-differences approach across Chinese prefecture-level cities provides \textit{causal} evidence that financing constraints significantly elevate local government debt risk, driven by increased corporate bankruptcies and weakened land markets that reduce primary revenue sources. In response, local governments boost bond issuance, improve non-tax revenue collection, and collaborate with state-owned enterprises to stabilize land markets. Policy implications are also considered.`,
+      date: "2025",
       link: "",
       github: "",
-      writers: [],
+      writers: ["Zhihao He", "Ka Yui Charles Leung", "Qilin Zhang*"],
     },
     {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `we adopt an elite-focused approach to explore the ways in which left and right-leaning American political elites differ in their visual and emotional framing of climate change. Overall, this study provides new insight into how politicians across party lines communicate about critical and polarizing political issues, such as climate change, by adapting to novel online communication channels.`,
-      date: "1996",
+      title: `Foreign Exposure and Tenant Turnover: Evidence from Beijing's Grade-A Office Market`,
+      abstract: `We study how geopolitical shocks affect the spatial organization of global cities by examining tenant reallocation in Beijing's commercial office market following the 2018-2019 US-China trade war. Exploiting variation in pre--shock foreign--firm exposure across Grade--A office buildings in five core submarkets, we find that buildings with greater foreign exposure exhibited significantly higher tenant turnover. This adjustment followed a distinct dynamic pattern: an initial decline in turnover, followed by a sharp increase driven primarily by tenant exits. Effects were concentrated in internationally oriented submarkets (CBD and East Second Ring). Institutional proximity moderates this adjustment: buildings closer to Beijing's embassy district exhibit attenuated responses, consistent with an embassy-district shelter effect. Beyond turnover, we document a re-indigenization of the tenant base in higher-exposure buildings, alongside a shift toward smaller-capital and less R&D intensive occupiers.`,
+      date: "2025",
       link: "http://link.com",
       github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla", "masoud Claudio "],
+      writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
     },
   ],
 
