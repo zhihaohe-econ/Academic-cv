@@ -35,7 +35,7 @@ const enPublicationsPageData = {
       journal: "Scentific Data",
       date: "2026",
       link: "http://link.com",
-      Replication: "https://doi.org/10.7910/DVN/7MZRIL",
+      replication: "https://doi.org/10.7910/DVN/7MZRIL",
       News: "https://www.cssn.cn/zzx/zzx_rdjj/202504/t20250404_5866949.shtml",
       writers: ["Lu Song", "Zhihao He", "Yinghao Pan", "Haijun Yue*",],
     },
@@ -44,7 +44,7 @@ const enPublicationsPageData = {
       journal: "Cities",
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S026427512500469X?via%3Dihub",
-      Replication: "http://github.com",
+      replication: "http://github.com",
       writers: ["Zhihao He", "Yuesong Zhang", "Xueqiang Ji", "Yinghao Pan*"],
     },
     {
@@ -52,7 +52,7 @@ const enPublicationsPageData = {
       journal: "Habitat International",
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S0197397525000980?via%3Dihub",
-      Replication: "http://github.com",
+      replication: "http://github.com",
       writers: ["Zhihao He", "Zhuoqun Li*", "Guanyun Cui", "Ziyan Xu"],
     },
     {
@@ -60,7 +60,7 @@ const enPublicationsPageData = {
       journal: "Cities",
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S0264275123005838?via%3Dihub",
-      Replication: "http://github.com",
+      replication: "http://github.com",
       writers: ["Zhihao He", "Qilin Zhang", "Yinghao Pan*"],
     },
   ],
@@ -70,6 +70,11 @@ const enPublicationsPageData = {
     {
       title: `Macroprudential Policies Under Fiscal Federalism?  Evidence from China`,
       abstract: `This paper explores macroprudential policy implementation within a hierarchical government structure, focusing on the fiscal effects on local governments when the Chinese government restricts financing for real estate developers to address property market risks. Our difference-in-differences approach across Chinese prefecture-level cities provides causal evidence that financing constraints significantly elevate local government debt risk, driven by increased corporate bankruptcies and weakened land markets that reduce primary revenue sources. In response, local governments boost bond issuance, improve non-tax revenue collection, and collaborate with state-owned enterprises to stabilize land markets. Policy implications are also considered.`,
+      presentations: [
+        "CAERE Annual Meeting 2025",
+        "AAEA Annual Meeting 2025", 
+        "PKU CCER Annual Meeting 2025"
+      ],
       date: "2025",
       link: "",
       github: "",
