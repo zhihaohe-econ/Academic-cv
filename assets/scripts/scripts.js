@@ -116,26 +116,50 @@ $(document).ready(function () {
           }
           ${publication.date ? `<span>(${publication.date}).</span>` : ""}
           <h2>${publication.title}</h2>
+          ${
+            publication.journal
+              ? `<p class='publication_journal'><em>${publication.journal}</em>${
+                  publication.status ? `, ${publication.status}` : ""
+                }</p>`
+              : ""
+          }
+          ${
+            publication.presentations && publication.presentations.length > 0
+              ? `<p class='publication_presentations'><strong>Selected Presentations:</strong> ${publication.presentations.join(
+                  "; "
+                )}</p>`
+              : ""
+          }
         </div>
-        <p>${publication.abstract}</p>
+        <p>${publication.abstract || ""}</p>
         <ul class='publications_footer'>
           ${
-            publication.link &&
-            `<li>
+            publication.link
+              ? `<li>
                 <a href=${publication.link} target="_blank"> ${
-              lang === "en" ? "View" : " مشاهده"
-            } </a>
+                  lang === "en" ? "View" : " مشاهده"
+                } </a>
               </li>`
+              : ""
           }
-            ${
-              publication.github &&
-              `<li>
+          ${
+            publication.github
+              ? `<li>
                   <a href=${publication.github} target="_blank">  ${
-                lang === "en" ? "Github" : "گیت‌هاب"
-              }</a>
+                  lang === "en" ? "Github" : "گیت‌هاب"
+                }</a>
                 </li>`
-            }
-          
+              : ""
+          }
+          ${
+            publication.News
+              ? `<li>
+                  <a href=${publication.News} target="_blank">  ${
+                  lang === "en" ? "News" : "اخبار"
+                }</a>
+                </li>`
+              : ""
+          }
         </ul>
       </div>
      `
