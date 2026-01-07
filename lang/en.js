@@ -128,13 +128,19 @@ const enPublicationsPageData = {
 
   type_three_title: "Others",
   type_three_items: [
-    // Add your book chapters here if needed
+    "Zhihao He, Guiyuan Yi, and Yinghao Pan*, 2025, \"Housing Costs Impede Green Innovation: Evidence from Chinese Cities\", UR.",
+    "Zhihao He, Jialuo Li, Huachen Sun, and Yinghao Pan*, 2025, \"International Expansion and Firm Performance: Evidence from Chinese Firms\", UR.",
+    "Zhihao He, Ziyan Xu, Shangjie Wu, and Siyuan Feng*, 2025, \"Housing Conditions and Child Development: Evidence from China\", UR.",
+    "Xunfeng Zhuo, Zhihao He, and Songpei Zhang*, 2025, \"How Enhanced Trade Secret Protection Reduces Patent Applications: A Study of Intellectual Property Choices\", UR.",
+    "Sishu Zhou, Yuesong Zhang, Zhihao He*, and Genghong Guo, 2025, \"From Isolated to Integrated: The Synergistic Impact of Dual Green-Digital Pilots on China's Urban Ecological Resilience\", UR.",
+    "Zekun Fan, Zhihao He, and Weidong Qu*, 2025, \"Foreign Exposure and Tenant Turnover: Evidence from Beijing's Grade-A Office Market\", UR.",
+    "Zekun Fan, Zhihao He, and Weidong Qu*, 2025, \"China's urban services converge as soft delivery catches up with hard infrastructure\", UR.",
+    "Zekun Fan, Zhihao He, and Weidong Qu*, 2026, \"Credit Deleveraging and Firm Dynamics: Evidence from China's Real Estate Market\", UR.",
   ],
 
   type_four_title: "",
   type_four_items: [],
 };
-
 // ---------- Research page data
 const enResearchPageData = {
   title: "Research",
