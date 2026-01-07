@@ -33,17 +33,15 @@ const enPublicationsPageData = {
     {
       title: `A Dataset of the Smart Governance Index for Chinese Cities`,
       journal: "Scentific Data",
-      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
       date: "2026",
       link: "http://link.com",
-      github: "",
-      download: "",
+      Data: "https://doi.org/10.7910/DVN/7MZRIL",
+      News: "https://www.cssn.cn/zzx/zzx_rdjj/202504/t20250404_5866949.shtml",
       writers: ["Lu Song", "Zhihao He", "Yinghao Pan", "Haijun Yue*",],
     },
     {
       title: `Sex Imbalances of Children and Housing Demand: Evidence from China`,
       journal: "Cities",
-      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S026427512500469X?via%3Dihub",
       github: "http://github.com",
@@ -52,7 +50,6 @@ const enPublicationsPageData = {
     {
       title: `From cost to creativity: Tracing the impact of housing affordability on innovation and entrepreneurship in urban China`,
       journal: "Habitat International",
-      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S0197397525000980?via%3Dihub",
       github: "http://github.com",
@@ -61,7 +58,6 @@ const enPublicationsPageData = {
     {
       title: `Bequest motives in the housing wealth effect: A new perspective from China`,
       journal: "Cities",
-      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S0264275123005838?via%3Dihub",
       github: "http://github.com",
