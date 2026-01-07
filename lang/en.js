@@ -19,11 +19,8 @@ const enHomePageData = {
     </p>
     <h2 class='title'> Research interests </h2>
     <p>Urban Economics; Real Estate Economics; Land Economics. </p>
-    <ul>
-      <li> Heuristics</li>
-      <li> Policy planning </li>
-      <li> Flexiblity to details </li>
-    </ul>
+    <h2 class='title'> Research advisers </h2>
+    <p>ZHANG Yuesong; LEUNG Ka Yui Charles. </p>
   </div>
   `,
 };
@@ -34,21 +31,37 @@ const enPublicationsPageData = {
 
   type_one_items: [
     {
-      title: `Dancing to the beat of climate change: Studying visual frames on TikTok through the left-right divide among U.S. politicians (with ).`,
+      title: `A Dataset of the Smart Governance Index for Chinese Cities`,
       abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
-      date: "",
+      date: "2026",
       link: "http://link.com",
       github: "",
       download: "",
-      writers: ["Claudio Cioffi-Revilla", "masoud Claudio "],
+      writers: ["Lu Song", "Zhihao He", "Yinghao Pan", "Haijun Yue*",],
     },
     {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
+      title: `Sex Imbalances of Children and Housing Demand: Evidence from China`,
       abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
-      date: "1996",
+      date: "2025",
       link: "",
       github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla", ""],
+      writers: ["Zhihao He", "Yuesong Zhang", "Xueqiang Ji", "Yinghao Pan*"],
+    },
+    {
+      title: `From cost to creativity: Tracing the impact of housing affordability on innovation and entrepreneurship in urban China`,
+      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
+      date: "2025",
+      link: "",
+      github: "http://github.com",
+      writers: ["Zhihao He", "Zhuoqun Li*", "Guanyun Cui", "Ziyan Xu"],
+    },
+    {
+      title: `Bequest motives in the housing wealth effect: A new perspective from China`,
+      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
+      date: "2025",
+      link: "",
+      github: "http://github.com",
+      writers: ["Zhihao He", "Qilin Zhang", "Yinghao Pan*"],
     },
   ],
 
