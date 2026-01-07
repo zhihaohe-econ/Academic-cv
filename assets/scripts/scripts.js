@@ -196,7 +196,76 @@ $(document).ready(function () {
     publicationsData();
   }
 
-  // Research page data
+  // CV page data
+  function cvData() {
+    document.getElementById("page_title").innerText = enCVPageData.title;
+    document.getElementById("cv_title").innerHTML = enCVPageData.title;
+
+    let cvHTML = '';
+    
+    // Add download links if available
+    if (enCVPageData.download_text) {
+      cvHTML += `
+        <p class="mb-4">
+          ${enCVPageData.download_text} 
+          <a href="${enCVPageData.download_english_link}" target="_blank">${enCVPageData.download_english_text}</a> 
+          or in 
+          <a href="${enCVPageData.download_chinese_link}" target="_blank">${enCVPageData.download_chinese_text}</a>.
+        </p>
+      `;
+    }
+    
+    // Render each section
+    enCVPageData.sections.forEach(section => {
+      cvHTML += `<h2 class="title mt-4 mb-3">${section.title}</h2>`;
+      
+      if (section.title === 'Education') {
+        cvHTML += '<ul class="cv-list">';
+        section.items.forEach(item => {
+          cvHTML += `
+            <li class="mb-3">
+              <strong>${item.degree}</strong>, ${item.institution}
+              ${item.date ? `<span class="float-end">${item.date}</span>` : ''}
+              ${item.supervisor ? `<br/>(Supervisor: ${item.supervisor})` : ''}
+            </li>
+          `;
+        });
+        cvHTML += '</ul>';
+      } else if (section.title === 'Teaching Experiences') {
+        cvHTML += '<ul class="cv-list">';
+        section.items.forEach(item => {
+          cvHTML += `
+            <li class="mb-3">
+              ${item.role}, ${item.course}
+              ${item.date ? `<span class="float-end">${item.date}</span>` : ''}
+            </li>
+          `;
+        });
+        cvHTML += '</ul>';
+      } else if (section.title === 'Professional Services') {
+        cvHTML += '<ul class="cv-list">';
+        section.items.forEach(item => {
+          cvHTML += `<li class="mb-2">${item.description}</li>`;
+        });
+        cvHTML += '</ul>';
+      } else {
+        // Simple list items (Awards, Skills, Languages)
+        cvHTML += '<ul class="cv-list">';
+        section.items.forEach(item => {
+          cvHTML += `<li class="mb-2">${item}</li>`;
+        });
+        cvHTML += '</ul>';
+      }
+    });
+    
+    document.getElementById('cv_data').innerHTML = cvHTML;
+  }
+
+  if (pathname === "/cv") {
+    cvData();
+  }
+
+  // Research page data (keeping for backward compatibility)
   function researchData() {
     document.getElementById("page_title").innerText = "Research";
 
