@@ -32,35 +32,39 @@ const enPublicationsPageData = {
   type_one_items: [
     {
       title: `A Dataset of the Smart Governance Index for Chinese Cities`,
-      journal: "Scentific Data",
+      journal: "Scientific Data",
+      status: "Published",
       date: "2026",
       link: "http://link.com",
       replication: "https://doi.org/10.7910/DVN/7MZRIL",
       News: "https://www.cssn.cn/zzx/zzx_rdjj/202504/t20250404_5866949.shtml",
-      writers: ["Lu Song", "Zhihao He", "Yinghao Pan", "Haijun Yue*",],
+      writers: ["Lu Song", "Zhihao He", "Yinghao Pan", "Haijun Yue*"],
     },
     {
       title: `Sex Imbalances of Children and Housing Demand: Evidence from China`,
       journal: "Cities",
+      status: "Published",
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S026427512500469X?via%3Dihub",
-      replication: "http://github.com",
+      replication: "http://replication-link.com",
       writers: ["Zhihao He", "Yuesong Zhang", "Xueqiang Ji", "Yinghao Pan*"],
     },
     {
       title: `From cost to creativity: Tracing the impact of housing affordability on innovation and entrepreneurship in urban China`,
       journal: "Habitat International",
+      status: "Published",
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S0197397525000980?via%3Dihub",
-      replication: "http://github.com",
+      replication: "http://replication-link.com",
       writers: ["Zhihao He", "Zhuoqun Li*", "Guanyun Cui", "Ziyan Xu"],
     },
     {
       title: `Bequest motives in the housing wealth effect: A new perspective from China`,
       journal: "Cities",
+      status: "Published",
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S0264275123005838?via%3Dihub",
-      replication: "http://github.com",
+      replication: "http://replication-link.com",
       writers: ["Zhihao He", "Qilin Zhang", "Yinghao Pan*"],
     },
   ],
@@ -68,8 +72,10 @@ const enPublicationsPageData = {
   type_two_title: "Working Papers",
   type_two_items: [
     {
-      title: `Macroprudential Policies Under Fiscal Federalism?  Evidence from China`,
-      abstract: `This paper explores macroprudential policy implementation within a hierarchical government structure, focusing on the fiscal effects on local governments when the Chinese government restricts financing for real estate developers to address property market risks. Our difference-in-differences approach across Chinese prefecture-level cities provides causal evidence that financing constraints significantly elevate local government debt risk, driven by increased corporate bankruptcies and weakened land markets that reduce primary revenue sources. In response, local governments boost bond issuance, improve non-tax revenue collection, and collaborate with state-owned enterprises to stabilize land markets. Policy implications are also considered.`,
+      title: `Greening through Tourism`,
+      journal: "Journal of Environmental Economics and Management",
+      status: "Reject & Resubmit",
+      abstract: `This paper examines the relationship between tourism development and environmental outcomes in various regions.`,
       presentations: [
         "CAERE Annual Meeting 2025",
         "AAEA Annual Meeting 2025", 
@@ -77,58 +83,38 @@ const enPublicationsPageData = {
       ],
       date: "2025",
       link: "",
-      github: "",
+      replication: "https://github.com/yourusername/greening-tourism",
+      writers: ["Zhihao He", "Mingying Zhu", "Bo Chen", "Wei Du"],
+    },
+    {
+      title: `Macroprudential Policies Under Fiscal Federalism? Evidence from China`,
+      journal: "Under Review",
+      status: "",
+      abstract: `This paper explores macroprudential policy implementation within a hierarchical government structure, focusing on the fiscal effects on local governments when the Chinese government restricts financing for real estate developers to address property market risks. Our difference-in-differences approach across Chinese prefecture-level cities provides causal evidence that financing constraints significantly elevate local government debt risk, driven by increased corporate bankruptcies and weakened land markets that reduce primary revenue sources. In response, local governments boost bond issuance, improve non-tax revenue collection, and collaborate with state-owned enterprises to stabilize land markets. Policy implications are also considered.`,
+      date: "2025",
+      link: "",
+      replication: "",
       writers: ["Zhihao He", "Ka Yui Charles Leung", "Qilin Zhang*"],
     },
     {
       title: `Foreign Exposure and Tenant Turnover: Evidence from Beijing's Grade-A Office Market`,
+      journal: "Working Paper",
+      status: "",
       abstract: `We study how geopolitical shocks affect the spatial organization of global cities by examining tenant reallocation in Beijing's commercial office market following the 2018-2019 US-China trade war. Exploiting variation in pre-shock foreign-firm exposure across Grade-A office buildings in five core submarkets, we find that buildings with greater foreign exposure exhibited significantly higher tenant turnover. This adjustment followed a distinct dynamic pattern: an initial decline in turnover, followed by a sharp increase driven primarily by tenant exits. Effects were concentrated in internationally oriented submarkets (CBD and East Second Ring). Institutional proximity moderates this adjustment: buildings closer to Beijing's embassy district exhibit attenuated responses, consistent with an embassy-district shelter effect. Beyond turnover, we document a re-indigenization of the tenant base in higher-exposure buildings, alongside a shift toward smaller-capital and less R&D intensive occupiers.`,
       date: "2025",
       link: "http://link.com",
-      github: "http://github.com",
+      replication: "http://replication-link.com",
       writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
     },
   ],
 
   type_three_title: "Book Chapters",
   type_three_items: [
-    {
-      title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
-      abstract: ``,
-      date: "",
-      link: "",
-      github: "",
-      writers: [],
-    },
-    {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `we adopt an elite-focused approach to explore the ways in which left and right-leaning American political elites differ in their visual and emotional framing of climate change. Overall, this study provides new insight into how politicians across party lines communicate about critical and polarizing political issues, such as climate change, by adapting to novel online communication channels.`,
-      date: "1996",
-      link: "http://link.com",
-      github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla"],
-    },
+    // Add your book chapters here if needed
   ],
 
   type_four_title: "",
-  type_four_items: [
-    {
-      title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
-      abstract: ``,
-      date: "",
-      link: "",
-      github: "",
-      writers: [],
-    },
-    {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `we adopt an elite-focused approach to explore the ways in which left and right-leaning American political elites differ in their visual and emotional framing of climate change. Overall, this study provides new insight into how politicians across party lines communicate about critical and polarizing political issues, such as climate change, by adapting to novel online communication channels.`,
-      date: "1996",
-      link: "http://link.com",
-      github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla"],
-    },
-  ],
+  type_four_items: [],
 };
 
 // ---------- Research page data
@@ -136,39 +122,37 @@ const enResearchPageData = {
   title: "Research",
   content: `
     <div class='research_content'>
-        <p> My research goal is to combine the three major sub-fields of the Computational Social Science, including Social Media Data Analysis, Network Analysis, and Agent-based Modeling, to study various social science problems. Below you can find a summary of my past and current projects.</p>
+        <p>My research focuses on urban economics, real estate economics, and land economics. I employ various empirical methods including difference-in-differences, instrumental variables, and quasi-experimental designs to understand how housing markets, land policies, and urban development affect economic outcomes and social welfare.</p>
         <br />
-        <h4 style="font-size: 1.1rem "> Identifying and Characterizing US Domestic Ideological Extremists </h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-        <img src='../files/images/research.png' />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra  accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat <br /> imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet <br /> lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
+        <h4 style="font-size: 1.1rem">Housing Markets and Social Outcomes</h4>
+        <p>One strand of my research examines how housing market conditions influence household behavior and demographic outcomes. In my work on sex imbalances and housing demand, I investigate how gender composition in families affects housing consumption decisions in China. This research provides insights into the intersection of cultural factors, demographic transitions, and real estate markets.</p>
+        <br />
+        <h4 style="font-size: 1.1rem">Innovation, Entrepreneurship, and Housing Affordability</h4>
+        <p>Another major research area explores the relationship between housing costs and economic dynamism. My work traces how housing affordability constraints affect innovation and entrepreneurship in urban China, revealing important trade-offs between property development and economic creativity in rapidly growing cities.</p>
+        <br />
+        <h4 style="font-size: 1.1rem">Macroprudential Policy and Local Government Finance</h4>
+        <p>I also study how national-level financial regulations interact with local government fiscal systems. My research on macroprudential policies under fiscal federalism examines unintended consequences of property market regulations on local government debt and fiscal health, providing policy-relevant insights for financial stability and intergovernmental fiscal relations.</p>
     </div>
   `,
 };
 
 // ---------- Jobs page data
 const enJobsPageData = {
-  title: "Jobs",
+  title: "Academic Positions & Experience",
   items: [
     {
-      title: `Job title`,
-      company: "Company name",
-      startData: "20 April 2019",
-      endDate: "20 April 2022",
-      location: "Berlin",
+      title: `Ph.D. Candidate`,
+      company: "Renmin University of China & City University of Hong Kong",
+      startData: "September 2020",
+      endDate: "Expected December 2026",
+      location: "Beijing & Hong Kong",
       abstract:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus.",
-      achievements: ["achievement 1", "achievement 2", "achievement 3"],
-    },
-    {
-      title: `Job title`,
-      company: "Company name",
-      startData: "20 April 2019",
-      endDate: "",
-      location: "Berlin",
-      abstract:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus.",
-      achievements: ["achievement 1", "achievement 2"],
+        "Joint Ph.D. program in Land and Real Estate Management (RUC) and Economics and Finance (CityU). Conducting research on urban economics, real estate economics, and land economics under the supervision of Prof. Zhang Yuesong and Prof. Leung Ka Yui Charles.",
+      achievements: [
+        "Multiple publications in leading journals including Cities and Habitat International",
+        "Selected presentations at major international conferences (CAERE, AAEA, PKU CCER)",
+        "Developed comprehensive research agenda on housing markets and urban development"
+      ],
     },
   ],
 };
