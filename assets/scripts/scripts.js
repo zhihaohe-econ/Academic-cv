@@ -69,16 +69,13 @@ $(document).ready(function () {
   };
 
   function homeData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? enHomePageData.name : faHomePageData.name;
+    document.getElementById("page_title").innerText = enHomePageData.name;
 
     document.getElementById("home_image").src = home_data.image
       ? home_data.image
       : "";
-    document.getElementById("home_name").innerText =
-      lang === "en" ? enHomePageData.name : faHomePageData.name;
-    document.getElementById("home_job_title").innerText =
-      lang === "en" ? enHomePageData.jobTitle : faHomePageData.jobTitle;
+    document.getElementById("home_name").innerText = enHomePageData.name;
+    document.getElementById("home_job_title").innerText = enHomePageData.jobTitle;
     document.getElementById("home_links").innerHTML = home_data.links
       .filter((item) => item.active)
       .map(
@@ -89,10 +86,8 @@ $(document).ready(function () {
       )
       .join("");
 
-    document.getElementById("home_title").innerText =
-      lang === "en" ? enHomePageData.home_title : faHomePageData.home_title;
-    document.getElementById("home_content").innerHTML =
-      lang === "en" ? enHomePageData.home_content : faHomePageData.home_content;
+    document.getElementById("home_title").innerText = enHomePageData.home_title;
+    document.getElementById("home_content").innerHTML = enHomePageData.home_content;
   }
 
   if (pathname === "/" || pathname === "/index") {
@@ -136,27 +131,21 @@ $(document).ready(function () {
           ${
             publication.link
               ? `<li>
-                <a href=${publication.link} target="_blank"> ${
-                  lang === "en" ? "View" : " مشاهده"
-                } </a>
+                <a href=${publication.link} target="_blank">View</a>
               </li>`
               : ""
           }
           ${
             publication.github
               ? `<li>
-                  <a href=${publication.github} target="_blank">  ${
-                  lang === "en" ? "Github" : "گیت‌هاب"
-                }</a>
+                  <a href=${publication.github} target="_blank">Replication</a>
                 </li>`
               : ""
           }
           ${
             publication.News
               ? `<li>
-                  <a href=${publication.News} target="_blank">  ${
-                  lang === "en" ? "News" : "اخبار"
-                }</a>
+                  <a href=${publication.News} target="_blank">News</a>
                 </li>`
               : ""
           }
@@ -168,55 +157,38 @@ $(document).ready(function () {
   };
 
   function publicationsData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Publications" : "مقالات";
+    document.getElementById("page_title").innerText = "Publications";
 
     document.getElementById("publications_type_one_title").innerHTML =
-      lang === "en"
-        ? enPublicationsPageData.type_one_title
-        : faPublicationsPageData.type_one_title;
+      enPublicationsPageData.type_one_title;
 
     setPublicationData(
       "publications_type_one_data",
-      lang === "en"
-        ? enPublicationsPageData.type_one_items
-        : faPublicationsPageData.type_one_items
+      enPublicationsPageData.type_one_items
     );
 
     document.getElementById("publications_type_two_title").innerHTML =
-      lang === "en"
-        ? enPublicationsPageData.type_two_title
-        : faPublicationsPageData.type_two_title;
+      enPublicationsPageData.type_two_title;
 
     setPublicationData(
       "publications_type_two_data",
-      lang === "en"
-        ? enPublicationsPageData.type_two_items
-        : faPublicationsPageData.type_two_items
+      enPublicationsPageData.type_two_items
     );
 
     document.getElementById("publications_type_three_title").innerHTML =
-      lang === "en"
-        ? enPublicationsPageData.type_three_title
-        : faPublicationsPageData.type_three_title;
+      enPublicationsPageData.type_three_title;
 
     setPublicationData(
       "publications_type_three_data",
-      lang === "en"
-        ? enPublicationsPageData.type_three_items
-        : faPublicationsPageData.type_three_items
+      enPublicationsPageData.type_three_items
     );
 
     document.getElementById("publications_type_four_title").innerHTML =
-      lang === "en"
-        ? enPublicationsPageData.type_four_title
-        : faPublicationsPageData.type_four_title;
+      enPublicationsPageData.type_four_title;
 
     setPublicationData(
       "publications_type_four_data",
-      lang === "en"
-        ? enPublicationsPageData.type_four_items
-        : faPublicationsPageData.type_four_items
+      enPublicationsPageData.type_four_items
     );
   }
 
@@ -226,13 +198,10 @@ $(document).ready(function () {
 
   // Research page data
   function researchData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Research" : "تحقیقات";
+    document.getElementById("page_title").innerText = "Research";
 
-    document.getElementById("research_title").innerHTML =
-      lang === "en" ? enResearchPageData.title : faResearchPageData.title;
-    document.getElementById("research_data").innerHTML =
-      lang === "en" ? enResearchPageData.content : faResearchPageData.content;
+    document.getElementById("research_title").innerHTML = enResearchPageData.title;
+    document.getElementById("research_data").innerHTML = enResearchPageData.content;
   }
 
   if (pathname === "/research") {
@@ -241,27 +210,21 @@ $(document).ready(function () {
 
   // Jobs page data
   function jobsData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Jobs" : " سوابق شغلی ";
+    document.getElementById("page_title").innerText = "Jobs";
 
-    document.getElementById("jobs_title").innerHTML =
-      lang === "en" ? enJobsPageData.title : faJobsPageData.title;
+    document.getElementById("jobs_title").innerHTML = enJobsPageData.title;
 
-    document.getElementById("jobs_data").innerHTML = (
-      lang === "en" ? enJobsPageData.items : faJobsPageData.items
-    )
+    document.getElementById("jobs_data").innerHTML = enJobsPageData.items
       .map(
         (job) =>
           `<div class='job_item'>
             <div class='job_header'>
               <div>
-                <h1>${job.title}${lang === "en" ? "," : "،"}</h1>
+                <h1>${job.title},</h1>
                 <h2> ${job.company}</h2>
               </div>
               <div>
-                <span>${job.startData} - ${
-            job.endDate ? job.endDate : lang === "en" ? "Now" : " تاکنون "
-          }</span>
+                <span>${job.startData} - ${job.endDate ? job.endDate : "Now"}</span>
                 <span class='job_location'>${job.location}</span>
               </div>
             </div>
@@ -288,12 +251,12 @@ $(document).ready(function () {
 
   // Contact page data
   const contact_data = {
-    contact_title: lang === "en" ? "Contact" : "ارتباط با من",
+    contact_title: "Contact",
     contact_items: [
       {
         img: "../assets/images/icons/location.png",
-        title: lang === "en" ? globalData.enAddress : globalData.faAddress,
-        active: globalData.enAddress || globalData.faAddress ? true : false,
+        title: globalData.enAddress,
+        active: globalData.enAddress ? true : false,
       },
       {
         img: "../assets/images/icons/phone.png",
