@@ -33,7 +33,7 @@ const enPublicationsPageData = {
     {
       title: `A Dataset of the Smart Governance Index for Chinese Cities`,
       journal: "Scientific Data",
-      status: "Published",
+      status: "Online soon",
       date: "2026",
       link: "http://link.com",
       replication: "https://doi.org/10.7910/DVN/7MZRIL",
@@ -43,7 +43,7 @@ const enPublicationsPageData = {
     {
       title: `Sex Imbalances of Children and Housing Demand: Evidence from China`,
       journal: "Cities",
-      status: "Published",
+      status: "",
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S026427512500469X?via%3Dihub",
       replication: "http://replication-link.com",
@@ -52,7 +52,7 @@ const enPublicationsPageData = {
     {
       title: `From cost to creativity: Tracing the impact of housing affordability on innovation and entrepreneurship in urban China`,
       journal: "Habitat International",
-      status: "Published",
+      status: "",
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S0197397525000980?via%3Dihub",
       replication: "http://replication-link.com",
@@ -61,7 +61,7 @@ const enPublicationsPageData = {
     {
       title: `Bequest motives in the housing wealth effect: A new perspective from China`,
       journal: "Cities",
-      status: "Published",
+      status: "",
       date: "2025",
       link: "https://www.sciencedirect.com/science/article/pii/S0264275123005838?via%3Dihub",
       replication: "http://replication-link.com",
@@ -86,7 +86,7 @@ const enPublicationsPageData = {
     },
     {
       title: `Foreign Exposure and Tenant Turnover: Evidence from Beijing's Grade-A Office Market`,
-      journal: "Working Paper",
+      journal: "Under Review",
       status: "",
       abstract: `We study how geopolitical shocks affect the spatial organization of global cities by examining tenant reallocation in Beijing's commercial office market following the 2018-2019 US-China trade war. Exploiting variation in pre-shock foreign-firm exposure across Grade-A office buildings in five core submarkets, we find that buildings with greater foreign exposure exhibited significantly higher tenant turnover. This adjustment followed a distinct dynamic pattern: an initial decline in turnover, followed by a sharp increase driven primarily by tenant exits. Effects were concentrated in internationally oriented submarkets (CBD and East Second Ring). Institutional proximity moderates this adjustment: buildings closer to Beijing's embassy district exhibit attenuated responses, consistent with an embassy-district shelter effect. Beyond turnover, we document a re-indigenization of the tenant base in higher-exposure buildings, alongside a shift toward smaller-capital and less R&D intensive occupiers.`,
       date: "2025",
