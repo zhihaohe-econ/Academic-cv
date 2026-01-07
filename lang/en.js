@@ -3,7 +3,7 @@ const enNavbarData = {
   title: " Zhihao He ",
   Home: "Home",
   publications: "Publications",
-  Research: "Research",
+  CV: "CV",
   Jobs: "Jobs",
   Contact: "Contact",
 };
@@ -95,10 +95,10 @@ const enPublicationsPageData = {
       writers: ["Zhihao He", "Yinghao Pan"],
     },
     {
-      title: `When Land Expropriation Increases Income: Evidence from China’s Structural Transformation`,
+      title: `When Land Expropriation Increases Income: Evidence from China's Structural Transformation`,
       journal: "Journal of Development Studies",
       status: "Revise and Resubmit",
-      abstract: `While land expropriation historically impoverished rural populations in developing countries, we find contrasting evidence from China. Using panel data (2010-2018) and difference-in-differences estimation, we show that land expropriation increases household income by 9.3% in the short term, with larger long-term effects. Unlike typical dispossession outcomes, China’s expropriation operates through a “reverse pressure mechanism,” pushing farmers from agriculture into higher-productivity employment and increasing wage income by 35.5%. Effects are most potent for vulnerable groups: households in western regions (17.1% increase), those highly dependent on agriculture, and those with weaker social networks. Two mechanisms drive these results: compensation-funded financial asset accumulation and forced labor reallocation. China’s distinctive outcomes stem from rapid industrialization, providing alternative employment, mandatory compensation, and complementary infrastructure investments, conditions often absent in history. These findings challenge conventional wisdom about land dispossession while highlighting how institutional context determines whether expropriation impoverishes or enriches affected populations.`,
+      abstract: `While land expropriation historically impoverished rural populations in developing countries, we find contrasting evidence from China. Using panel data (2010-2018) and difference-in-differences estimation, we show that land expropriation increases household income by 9.3% in the short term, with larger long-term effects. Unlike typical dispossession outcomes, China's expropriation operates through a "reverse pressure mechanism," pushing farmers from agriculture into higher-productivity employment and increasing wage income by 35.5%. Effects are most potent for vulnerable groups: households in western regions (17.1% increase), those highly dependent on agriculture, and those with weaker social networks. Two mechanisms drive these results: compensation-funded financial asset accumulation and forced labor reallocation. China's distinctive outcomes stem from rapid industrialization, providing alternative employment, mandatory compensation, and complementary infrastructure investments, conditions often absent in history. These findings challenge conventional wisdom about land dispossession while highlighting how institutional context determines whether expropriation impoverishes or enriches affected populations.`,
       date: "2025",
       link: "",
       replication: "",
@@ -171,23 +171,102 @@ const enPublicationsPageData = {
   type_four_title: "",
   type_four_items: [],
 };
-// ---------- Research page data
-const enResearchPageData = {
-  title: "Research",
-  content: `
-    <div class='research_content'>
-        <p>My research focuses on urban economics, real estate economics, and land economics. I employ various empirical methods including difference-in-differences, instrumental variables, and quasi-experimental designs to understand how housing markets, land policies, and urban development affect economic outcomes and social welfare.</p>
-        <br />
-        <h4 style="font-size: 1.1rem">Housing Markets and Social Outcomes</h4>
-        <p>One strand of my research examines how housing market conditions influence household behavior and demographic outcomes. In my work on sex imbalances and housing demand, I investigate how gender composition in families affects housing consumption decisions in China. This research provides insights into the intersection of cultural factors, demographic transitions, and real estate markets.</p>
-        <br />
-        <h4 style="font-size: 1.1rem">Innovation, Entrepreneurship, and Housing Affordability</h4>
-        <p>Another major research area explores the relationship between housing costs and economic dynamism. My work traces how housing affordability constraints affect innovation and entrepreneurship in urban China, revealing important trade-offs between property development and economic creativity in rapidly growing cities.</p>
-        <br />
-        <h4 style="font-size: 1.1rem">Macroprudential Policy and Local Government Finance</h4>
-        <p>I also study how national-level financial regulations interact with local government fiscal systems. My research on macroprudential policies under fiscal federalism examines unintended consequences of property market regulations on local government debt and fiscal health, providing policy-relevant insights for financial stability and intergovernmental fiscal relations.</p>
-    </div>
-  `,
+
+// ---------- CV page data
+const enCVPageData = {
+  title: "Curriculum Vitae",
+  download_text: "You can also download a PDF copy of my CV in",
+  download_english_text: "English",
+  download_chinese_text: "Chinese",
+  download_english_link: "#",  // Add your actual PDF link here
+  download_chinese_link: "#",  // Add your actual PDF link here
+  
+  sections: [
+    {
+      title: "Education",
+      items: [
+        {
+          degree: "Ph.D, Economics",
+          institution: "National School of Development, Peking University",
+          supervisor: "Prof. Min Wang",
+          date: "Sep. 2021 - Jul. 2026 (expected)",
+        },
+        {
+          degree: "Postgraduate Fellow",
+          institution: "Charles H. Dyson School of Applied Economics and Management, Cornell University",
+          supervisor: "Prof. Jinhua Zhao",
+          date: "Sep.1 2024 - Aug.31 2025",
+        },
+        {
+          degree: "B.S., Environmental Science",
+          institution: "College of Environmental Sciences and Engineering, Peking University",
+          date: "2017-2021",
+        },
+        {
+          degree: "B.A., Economics",
+          institution: "National School of Development, Peking University",
+          date: "2018-2021",
+        }
+      ]
+    },
+    {
+      title: "Teaching Experiences",
+      items: [
+        {
+          role: "TA to Prof. Xianling Long",
+          course: "Environmental Economics",
+          date: "Spring 2023 and 2024"
+        },
+        {
+          role: "TA to Prof. Cong Peng",
+          course: "Urban Economics in Developing Countries (Ph.D., in English)",
+          date: "Fall 2023"
+        },
+        {
+          role: "TA to Prof. Lijun Zhu",
+          course: "Intermediate Macroeconomics (UG core)",
+          date: "Fall 2022"
+        }
+      ]
+    },
+    {
+      title: "Professional Services",
+      items: [
+        {
+          description: "Referee services for: Journal of Environmental Economics and Management (×1), China Economic Review (×6), China Economic Quarterly International (×2), China Economic Journal (×1), 经济学（季刊）(×2)"
+        },
+        {
+          description: "Data & code reviewer: 经济学（季刊）(×20)"
+        }
+      ]
+    },
+    {
+      title: "Awards",
+      items: [
+        "The Second Award and The Best Poster Award, The 8th HEOA Doctoral Forum on Health Policy and Economics, 2025",
+        "Excellent Paper Award, The 7th China Health Economic Development Forum, 2024",
+        "Excellent Paper Award, The 8th Annual Meeting of the China Labor Economists Forum, 2024",
+        "Excellent Paper Award, The 6th China Health Economic Development Forum, 2023",
+        "Award for Academic Excellence, Peking University, 2022 & 2023",
+        "Excellent Teaching Assistant Award, Peking University, 2022 Fall",
+        "National Scholarship, Peking University, 2020",
+        "Merit Student, 2018 & 2020",
+        "May 4th Scholarship, Peking University, 2018"
+      ]
+    },
+    {
+      title: "Skills",
+      items: [
+        "STATA, R, Python (for NetCDF data cleaning), ArcGIS, LaTeX"
+      ]
+    },
+    {
+      title: "Languages",
+      items: [
+        "Chinese (native), English (fluent)"
+      ]
+    }
+  ]
 };
 
 // ---------- Jobs page data
