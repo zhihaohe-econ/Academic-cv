@@ -35,7 +35,7 @@ const enPublicationsPageData = {
       journal: "Scentific Data",
       date: "2026",
       link: "http://link.com",
-      Data: "https://doi.org/10.7910/DVN/7MZRIL",
+      github: "https://doi.org/10.7910/DVN/7MZRIL",
       News: "https://www.cssn.cn/zzx/zzx_rdjj/202504/t20250404_5866949.shtml",
       writers: ["Lu Song", "Zhihao He", "Yinghao Pan", "Haijun Yue*",],
     },
