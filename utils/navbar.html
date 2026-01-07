@@ -1,48 +1,83 @@
-<nav
-  class="navbar navbar-expand-lg navbar-light bg-light"
-  id="content_wrapper"
-  data-aos="fade-in"
->
-  <div class="container">
-    <a class="navbar-brand" href="#" id="navbar_title"></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav" id="navbar_links"></ul>
-      <div id="language" class="language_wrapper" onClick="languageHandler()">
-        <img id="languageIcon" alt="Language" />
-        <span id="languageText"></span>
-      </div>
-    </div>
-  </div>
-</nav>
+// data/navbar.js - 导航栏配置文件
 
-<script src="../assets/scripts/scripts.js"></script>
-<script src="../data/navbar.js"></script>
-
-<script>
-  function languageHandler() {
-    let lang = localStorage.getItem("lang");
-
-    if (lang === "en") {
-      localStorage.setItem("lang", "fa");
-      location.reload();
-    } else {
-      localStorage.setItem("lang", "en");
-      location.reload();
-    }
+document.addEventListener("DOMContentLoaded", function () {
+  // 获取当前语言
+  const currentLang = localStorage.getItem("lang") || "en";
+  
+  // 根据语言加载对应的文本
+  const navbarData = currentLang === "fa" ? fa.navbar : en.navbar;
+  
+  // 设置导航栏标题（网站名称）
+  document.getElementById("navbar_title").textContent = navbarData.title;
+  document.getElementById("navbar_title").href = "./index.html";
+  
+  // 设置语言切换按钮
+  const languageIcon = document.getElementById("languageIcon");
+  const languageText = document.getElementById("languageText");
+  
+  if (currentLang === "fa") {
+    languageIcon.src = "../assets/images/icons/en.png";
+    languageText.textContent = "English";
+  } else {
+    languageIcon.src = "../assets/images/icons/fa.png";
+    languageText.textContent = "فارسی";
   }
-</script>
+  
+  // 生成导航链接
+  const navbarLinks = document.getElementById("navbar_links");
+  let linksHTML = "";
+  
+  // 根据 global.js 中的配置生成链接
+  if (navbarLinks.home !== false && navbarData.links.home) {
+    linksHTML += `
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">${navbarData.links.home}</a>
+      </li>`;
+  }
+  
+  if (navbarLinks.publications !== false && navbarData.links.publications) {
+    linksHTML += `
+      <li class="nav-item">
+        <a class="nav-link" href="./publications.html">${navbarData.links.publications}</a>
+      </li>`;
+  }
+  
+  if (navbarLinks.CV !== false && navbarData.links.CV) {
+    linksHTML += `
+      <li class="nav-item">
+        <a class="nav-link" href="./cv.html">${navbarData.links.CV}</a>
+      </li>`;
+  }
+  
+  if (navbarLinks.jobs !== false && navbarData.links.jobs) {
+    linksHTML += `
+      <li class="nav-item">
+        <a class="nav-link" href="./jobs.html">${navbarData.links.jobs}</a>
+      </li>`;
+  }
+  
+  if (navbarLinks.contact !== false && navbarData.links.contact) {
+    linksHTML += `
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">${navbarData.links.contact}</a>
+      </li>`;
+  }
+  
+  navbarLinks.innerHTML = linksHTML;
+  
+  // 高亮当前页面
+  highlightCurrentPage();
+});
 
-<script>
-  AOS.init();
-</script>
+// 高亮当前页面的导航链接
+function highlightCurrentPage() {
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const navLinks = document.querySelectorAll(".nav-link");
+  
+  navLinks.forEach(link => {
+    const linkHref = link.getAttribute("href").replace("./", "");
+    if (linkHref === currentPage) {
+      link.classList.add("active");
+    }
+  });
+}
