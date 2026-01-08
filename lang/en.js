@@ -178,7 +178,7 @@ const enCVPageData = {
   download_text: "You can also download a PDF copy of my CV in",
   download_english_text: "English",
   download_chinese_text: "Chinese",
-  download_english_link: "#",  // Add your actual PDF link here
+  download_english_link: "/files/resumee.pdf",
   download_chinese_link: "/files/resume.pdf",
   
   sections: [
