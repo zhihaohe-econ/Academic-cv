@@ -217,11 +217,6 @@ const enCVPageData = {
     {
       title: "Teaching Experiences",
       items: [
-       {
-          role: "RA to Prof. Charles Leung",
-          course: "Advanced Econometrics",
-          date: "11.2025-12.2025"
-        },
         {
           role: "TA to Prof. Charles Leung",
           course: "Urban and Real Estate Economics",
@@ -239,12 +234,12 @@ const enCVPageData = {
       items: [
        {
           role: "RA to Prof. Charles Leung",
-          institution: "College of Business, City University of Hong Kong",
+          course: "College of Business, City University of Hong Kong",
           date: "11.2025-12.2025"
         },
         {
           role: "RA to Prof. Yinghao Pan",
-          institution: "National Academy of Development and Strategy, Renmin University of China",
+          course: "National Academy of Development and Strategy, Renmin University of China",
           date: "09.2023-Present"
         },
       ]
