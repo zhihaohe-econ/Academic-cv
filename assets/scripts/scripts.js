@@ -265,8 +265,6 @@ $(document).ready(function () {
     cvData();
   }
 
-  // ❌ RESEARCH PAGE REMOVED - Use CV page instead
-  // If you need research content, add it to the CV page or Publications page
 
   // Jobs page data
   function jobsData() {
