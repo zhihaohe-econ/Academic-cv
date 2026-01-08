@@ -197,6 +197,12 @@ const enCVPageData = {
           date: "2020-2023",
         },
         {
+          degree: "M.A., Economics",
+          institution: "Institute of Investment Research, Academy of Macroeconomic Research (AMR), NDRC",
+          supervisor: "Prof. Rongrong Ren",
+          date: "2020-2023",
+        },
+        {
           degree: "B.S., Industrial Design",
           institution: "College of Agricultural Engineering and Food Science,  Shandong University of Technology",
           date: "2016-2020",
