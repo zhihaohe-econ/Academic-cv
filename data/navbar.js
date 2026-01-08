@@ -20,9 +20,9 @@ $(document).ready(function () {
         url: "/publications.html",
       },
       {
-        active: navbarLinks.research ? true : false,
-        title: lang === "fa" ? faNavbarData.Research : enNavbarData.Research,
-        url: "/research.html",
+        active: navbarLinks.cv ? true : false,
+      title: lang === "fa" ? faNavbarData.CV : enNavbarData.CV,
+      url: "/cv.html",
       },
       {
         active: navbarLinks.jobs ? true : false,
