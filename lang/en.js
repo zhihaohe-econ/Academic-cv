@@ -179,7 +179,7 @@ const enCVPageData = {
   download_english_text: "English",
   download_chinese_text: "Chinese",
   download_english_link: "#",  // Add your actual PDF link here
-  download_chinese_link: "#",  // Add your actual PDF link here
+  download_chinese_link: "/files/resume.pdf",
   
   sections: [
     {
