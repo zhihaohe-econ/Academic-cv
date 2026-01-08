@@ -1,36 +1,39 @@
 $(document).ready(function () {
-  // 移除所有语言检测，直接使用英文
+  let lang = localStorage.getItem("lang");
+  if (!lang) {
+    localStorage.setItem("lang", "en");
+  }
   const navbar_data = {
-    title: enNavbarData.title,
+    title: lang === "fa" ? faNavbarData.title : enNavbarData.title,
     navbar_links: [
       {
         active: navbarLinks.home ? true : false,
-        title: enNavbarData.Home,
+        title: lang === "fa" ? faNavbarData.Home : enNavbarData.Home,
         url: "/",
       },
       {
         active: navbarLinks.publications ? true : false,
-        title: enNavbarData.publications,
+        title:
+          lang === "fa" ? faNavbarData.publications : enNavbarData.publications,
         url: "/publications.html",
       },
       {
         active: navbarLinks.cv ? true : false,
-        title: enNavbarData.cv,
-        url: "/cv.html",
+      title: lang === "fa" ? faNavbarData.cv : enNavbarData.cv,
+      url: "/cv.html",
       },
       {
         active: navbarLinks.jobs ? true : false,
-        title: enNavbarData.Jobs,
+        title: lang === "fa" ? faNavbarData.Jobs : enNavbarData.Jobs,
         url: "/jobs.html",
       },
       {
         active: navbarLinks.contact ? true : false,
-        title: enNavbarData.Contact,
+        title: lang === "fa" ? faNavbarData.Contact : enNavbarData.Contact,
         url: "/contact.html",
       },
     ],
   };
-  
   function navbarData() {
     document.getElementById("navbar_title").innerHTML = navbar_data.title;
     document.getElementById("navbar_title").href = "/";
