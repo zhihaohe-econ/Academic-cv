@@ -276,24 +276,3 @@ const enCVPageData = {
     }
   ]
 };
-
-// ---------- Jobs page data
-const enJobsPageData = {
-  title: "Academic Positions & Experience",
-  items: [
-    {
-      title: `Ph.D. Candidate`,
-      company: "Renmin University of China & City University of Hong Kong",
-      startData: "September 2020",
-      endDate: "Expected December 2026",
-      location: "Beijing & Hong Kong",
-      abstract:
-        "Joint Ph.D. program in Land and Real Estate Management (RUC) and Economics and Finance (CityU). Conducting research on urban economics, real estate economics, and land economics under the supervision of Prof. Zhang Yuesong and Prof. Leung Ka Yui Charles.",
-      achievements: [
-        "Multiple publications in leading journals including Cities and Habitat International",
-        "Selected presentations at major international conferences (CAERE, AAEA, PKU CCER)",
-        "Developed comprehensive research agenda on housing markets and urban development"
-      ],
-    },
-  ],
-};
