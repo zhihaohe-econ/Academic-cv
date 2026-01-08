@@ -230,7 +230,7 @@ const enCVPageData = {
         },   
         {
           role: "RA to Prof. Yinghao Pan",
-          course: "Renmin University of Hong Kong",
+          course: "Renmin University of China",
           date: "09.2023-present"
         },   
         {
