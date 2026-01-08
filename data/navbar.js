@@ -21,7 +21,7 @@ $(document).ready(function () {
       },
       {
         active: navbarLinks.cv ? true : false,
-      title: lang === "fa" ? faNavbarData.CV : enNavbarData.CV,
+      title: lang === "fa" ? faNavbarData.cv : enNavbarData.cv,
       url: "/cv.html",
       },
       {
