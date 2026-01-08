@@ -155,6 +155,12 @@ const enPublicationsPageData = {
     writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
   },
   {
+    title: `Foreign Exposure and Tenant Turnover: Evidence from Beijing's Grade-A Office Market`,
+    journal: "",
+    date: "2025",
+    writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
+  },
+  {
     title: `Credit Deleveraging and Firm Dynamics: Evidence from China's Real Estate Market`,
     journal: "",
     date: "2026",
