@@ -18,26 +18,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav" id="navbar_links"></ul>
-      <div id="language" class="language_wrapper" onClick="languageHandler()">
-        <img id="languageIcon" alt="Language" />
-        <span id="languageText"></span>
-      </div>
+      <!-- 语言切换器已删除 -->
     </div>
   </div>
 </nav>
 <script src="../assets/scripts/scripts.js"></script>
 <script src="../data/navbar.js"></script>
 <script>
-  function languageHandler() {
-    let lang = localStorage.getItem("lang");
-    if (lang === "en") {
-      localStorage.setItem("lang", "fa");
-      location.reload();
-    } else {
-      localStorage.setItem("lang", "en");
-      location.reload();
-    }
-  }
+  // 强制设置语言为英文
+  localStorage.setItem("lang", "en");
 </script>
 <script>
   AOS.init();
