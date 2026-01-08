@@ -243,7 +243,7 @@ const enCVPageData = {
       title: "Professional Services",
       items: [
         {
-          description: "Referee services for: Journal of Real Estate Finance and Economics, Journal of Real Estate Research, Pacific Economic Review, European Financial Management, Humanities & Social Sciences Communications, Scientific Reports, 经济学（季刊）(×2)"
+          description: "Referee services for: Journal of Real Estate Finance and Economics, Journal of Real Estate Research, Pacific Economic Review, European Financial Management, Humanities & Social Sciences Communications, Scientific Reports"
         },
       ]
     },
