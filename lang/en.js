@@ -181,77 +181,80 @@ const enCVPageData = {
       items: [
         {
           degree: "Ph.D, Economics",
-          institution: "National School of Development, Peking University",
-          supervisor: "Prof. Min Wang",
-          date: "Sep. 2021 - Jul. 2026 (expected)",
+          institution: "College of Business, City University of Hong Kong",
+          supervisor: "Prof. Charles Leung",
+          date: "Sep. 2024 - Dec. 2026 (expected)",
         },
         {
-          degree: "Postgraduate Fellow",
-          institution: "Charles H. Dyson School of Applied Economics and Management, Cornell University",
-          supervisor: "Prof. Jinhua Zhao",
-          date: "Sep.1 2024 - Aug.31 2025",
+          degree: "Ph.D, Land and Real Estate Management",
+          institution: "School of Public Administration and Policy, Renmin University of China",
+          supervisor: "Prof. Yuesong Zhang",
+          date: "Sep. 2023 - Dec. 2026 (expected)",
         },
         {
-          degree: "B.S., Environmental Science",
-          institution: "College of Environmental Sciences and Engineering, Peking University",
-          date: "2017-2021",
+          degree: "M.A., Economics",
+          institution: "School of Economics, University of Chinese Academy of Social Science",
+          date: "2020-2023",
         },
         {
-          degree: "B.A., Economics",
-          institution: "National School of Development, Peking University",
-          date: "2018-2021",
+          degree: "B.S., Industrial Design",
+          institution: "College of Agricultural Engineering and Food Science,  Shandong University of Technology",
+          date: "2016-2020",
+        },
+        {
+          degree: "B.A., Finance",
+          institution: "School of Economics, Shandong University of Technology",
+          date: "2017-2020",
         }
       ]
     },
     {
       title: "Teaching Experiences",
       items: [
-        {
-          role: "TA to Prof. Xianling Long",
-          course: "Environmental Economics",
-          date: "Spring 2023 and 2024"
+       {
+          role: "RA to Prof. Charles Leung",
+          course: "Advanced Econometrics",
+          date: "11.2025-12.2025"
         },
         {
-          role: "TA to Prof. Cong Peng",
-          course: "Urban Economics in Developing Countries (Ph.D., in English)",
-          date: "Fall 2023"
+          role: "TA to Prof. Charles Leung",
+          course: "Urban and Real Estate Economics",
+          date: "Spring 2025"
         },
         {
-          role: "TA to Prof. Lijun Zhu",
-          course: "Intermediate Macroeconomics (UG core)",
-          date: "Fall 2022"
-        }
+          role: "TA to Prof. Yinghao Pan",
+          course: "Advanced Econometrics",
+          date: "Fall 2024"
+        },
       ]
     },
     {
       title: "Professional Services",
       items: [
         {
-          description: "Referee services for: Journal of Environmental Economics and Management (×1), China Economic Review (×6), China Economic Quarterly International (×2), China Economic Journal (×1), 经济学（季刊）(×2)"
+          description: "Referee services for: Journal of Real Estate Finance and Economics, Journal of Real Estate Research, Pacific Economic Review, European Financial Management, Humanities & Social Sciences Communications, Scientific Reports, 经济学（季刊）(×2)"
         },
-        {
-          description: "Data & code reviewer: 经济学（季刊）(×20)"
-        }
       ]
     },
     {
       title: "Awards",
       items: [
-        "The Second Award and The Best Poster Award, The 8th HEOA Doctoral Forum on Health Policy and Economics, 2025",
-        "Excellent Paper Award, The 7th China Health Economic Development Forum, 2024",
-        "Excellent Paper Award, The 8th Annual Meeting of the China Labor Economists Forum, 2024",
-        "Excellent Paper Award, The 6th China Health Economic Development Forum, 2023",
-        "Award for Academic Excellence, Peking University, 2022 & 2023",
-        "Excellent Teaching Assistant Award, Peking University, 2022 Fall",
-        "National Scholarship, Peking University, 2020",
-        "Merit Student, 2018 & 2020",
-        "May 4th Scholarship, Peking University, 2018"
+        "National Scholarship of the Ministry of Education, 2025",
+        "Outstanding Graduates of Beijing, Outstanding Graduates of UCASS, 2023",
+        "Best Paper, Lin Zengjie Land Science Development Fund, 2023",
+        "First Prize, Outstanding Research of the Academy of Macroeconomic Research (NDRC), 2022",
+      ]
+    },
+    {
+      title: "Grants",
+      items: [
+        "Outstanding Innovative Talents Cultivation Funded Programs 2024 of Renmin University of China",
       ]
     },
     {
       title: "Skills",
       items: [
-        "STATA, R, Python (for NetCDF data cleaning), ArcGIS, LaTeX"
+        "STATA, Python, LaTeX"
       ]
     },
     {
