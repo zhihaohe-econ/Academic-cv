@@ -265,17 +265,8 @@ $(document).ready(function () {
     cvData();
   }
 
-  // Research page data (keeping for backward compatibility)
-  function researchData() {
-    document.getElementById("page_title").innerText = "Research";
-
-    document.getElementById("research_title").innerHTML = enResearchPageData.title;
-    document.getElementById("research_data").innerHTML = enResearchPageData.content;
-  }
-
-  if (pathname === "/research") {
-    researchData();
-  }
+  // ❌ RESEARCH PAGE REMOVED - Use CV page instead
+  // If you need research content, add it to the CV page or Publications page
 
   // Jobs page data
   function jobsData() {
