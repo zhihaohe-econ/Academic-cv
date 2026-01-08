@@ -218,6 +218,16 @@ const enCVPageData = {
       title: "Teaching Experiences",
       items: [
         {
+          role: "RA to Prof. Charles Leung",
+          course: "City University of Hong Kong",
+          date: "11.2025-12.2025"
+        },   
+        {
+          role: "RA to Prof. Yinghao Pan",
+          course: "Renmin University of Hong Kong",
+          date: "09.2023-present"
+        },   
+        {
           role: "TA to Prof. Charles Leung",
           course: "Urban and Real Estate Economics",
           date: "Spring 2025"
@@ -226,19 +236,6 @@ const enCVPageData = {
           role: "TA to Prof. Yinghao Pan",
           course: "Advanced Econometrics",
           date: "Fall 2024"
-        },
-      ]
-    },
-        {
-      title: "Researching Experiences",
-      items: [
-       {
-          role: "RA to Prof. Charles Leung",
-          date: "11.2025-12.2025"
-        },
-        {
-          role: "RA to Prof. Yinghao Pan",
-          date: "09.2023-Present"
         },
       ]
     },
