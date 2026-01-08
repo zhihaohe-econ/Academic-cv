@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // 移除语言检测，直接使用英文
+  // 移除所有语言检测，直接使用英文
   const navbar_data = {
     title: enNavbarData.title,
     navbar_links: [
