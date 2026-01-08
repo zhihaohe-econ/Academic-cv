@@ -149,12 +149,6 @@ const enPublicationsPageData = {
     writers: ["Sishu Zhou", "Yuesong Zhang", "Zhihao He*", "Genghong Guo"],
   },
   {
-    title: `Foreign Exposure and Tenant Turnover: Evidence from Beijing's Grade-A Office Market`,
-    journal: "",
-    date: "2025",
-    writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
-  },
-  {
     title: `China's urban services converge as soft delivery catches up with hard infrastructure`,
     journal: "",
     date: "2025",
