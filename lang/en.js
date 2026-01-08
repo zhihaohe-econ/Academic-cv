@@ -226,12 +226,12 @@ const enCVPageData = {
         {
           role: "RA to Prof. Charles Leung",
           course: "City University of Hong Kong",
-          date: "11.2025-12.2025"
+          date: "Nov.2025-Dec.2025"
         },   
         {
           role: "RA to Prof. Yinghao Pan",
           course: "Renmin University of China",
-          date: "09.2023-present"
+          date: "Sep.2023-present"
         },   
         {
           role: "TA to Prof. Charles Leung",
