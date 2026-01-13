@@ -166,6 +166,12 @@ const enPublicationsPageData = {
     date: "2026",
     writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
   },
+  {
+    title: `When Capability Looks Like Vulnerability: Rethinking Urban Resilience Through China's COVID-19 Response`,
+    journal: "",
+    date: "2026",
+    writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
+  },
 ],
 
   type_four_title: "",
