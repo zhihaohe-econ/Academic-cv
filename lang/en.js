@@ -112,7 +112,7 @@ const enPublicationsPageData = {
       date: "2025",
       link: "",
       replication: "",
-      writers: ["Guanyun Cui", "Xing Ni", "Hui Cui*", "Zhihao He*"],
+      writers: ["Guanyun Cui", "Xing Ni", "Hui Cui", "Zhihao He*"],
     },
   ],
 
