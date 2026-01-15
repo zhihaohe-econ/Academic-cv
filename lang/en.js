@@ -140,7 +140,7 @@ const enPublicationsPageData = {
     title: `How Enhanced Trade Secret Protection Reduces Patent Applications: A Study of Intellectual Property Choices`,
     journal: "",
     date: "2025",
-    writers: ["Xunfeng Zhuo", "Zhihao He", "Songpei Zhang*"],
+    writers: ["Xunfeng Zhuo", "Jiancheng Xi", "Zhihao He", "Songpei Zhang*"],
   },
   {
     title: `From Isolated to Integrated: The Synergistic Impact of Dual Green-Digital Pilots on China's Urban Ecological Resilience`,
