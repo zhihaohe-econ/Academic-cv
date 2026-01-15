@@ -172,6 +172,12 @@ const enPublicationsPageData = {
     date: "2026",
     writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
   },
+  {
+    title: `Smart Governance and Urban Business Environments: Evidence from Chinese Cities`,
+    journal: "",
+    date: "2026",
+    writers: ["Sishu Zhou", "Zhihao He", "Lu Song*"],
+  },
 ],
 
   type_four_title: "",
