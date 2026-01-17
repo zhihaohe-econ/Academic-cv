@@ -62,7 +62,7 @@ const enPublicationsPageData = {
       title: `Bequest motives in the housing wealth effect: A new perspective from China`,
       journal: "Cities",
       status: "",
-      date: "2025",
+      date: "2024",
       link: "https://www.sciencedirect.com/science/article/pii/S0264275123005838?via%3Dihub",
       replication: "",
       writers: ["Zhihao He", "Qilin Zhang", "Yinghao Pan*"],
