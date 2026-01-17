@@ -243,7 +243,7 @@ const enCVPageData = {
         {
           role: "RA to Prof. Yinghao Pan",
           course: "Renmin University of China",
-          date: "Sep.2023-present"
+          date: "Sep.2023-Present"
         },   
         {
           role: "TA to Prof. Charles Leung",
