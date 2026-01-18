@@ -173,10 +173,22 @@ const enPublicationsPageData = {
     writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
   },
   {
+    title: `Does Industrial Land Bias Crowd Out Social Public Services? Evidence from China`,
+    journal: "",
+    date: "2026",
+    writers: ["Zekun Fan", "Zhihao He", "Weidong Qu*"],
+  },
+  {
     title: `Smart Governance and Urban Business Environments: Evidence from Chinese Cities`,
     journal: "",
     date: "2026",
     writers: ["Sishu Zhou", "Zhihao He", "Lu Song*"],
+  },
+  {
+    title: `Standard Setting and Corporate Bond Spreads: Evidence from Listed Companies of China`,
+    journal: "",
+    date: "2026",
+    writers: ["Zhihao He", "Xunfeng Zhuo", "Shang Yin*"],
   },
 ],
 
